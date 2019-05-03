@@ -23,4 +23,9 @@
     display: block;
 }
 
+.contact{
+    background-image: url("../assets/backgrounds/c_image.jpg"); 
+    height: 500px;  
+    background-size:cover; 
 
+}
