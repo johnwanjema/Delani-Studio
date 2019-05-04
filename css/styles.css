@@ -34,7 +34,8 @@
 .contact{
     background-image: url("../assets/backgrounds/c_image.jpg"); 
     height: 500px;  
-    background-size:cover; 
+    background-size:cover;
+    color:white; 
 
 }
 .social{
@@ -43,5 +44,15 @@
 .form-control{
     width: 500px;
     background-color: transparent;
+    color:white;
+}
+.development{
+    display: none;
 }
 
+.design{
+    display:none;
+}
+.product{
+    display: none;
+}
