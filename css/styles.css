@@ -42,5 +42,6 @@
 }
 .form-control{
     width: 500px;
+    background-color: transparent;
 }
 
