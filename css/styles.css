@@ -29,12 +29,10 @@
 
 .portfolio img {
     padding: 10px;
-    -webkit-column-gap: 40px;
-    /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px;
-    /* Firefox */
-    column-gap: 40px;
-    we
+   
+    
+    padding-left: 100px;
+    
 }
 
 .contact {
