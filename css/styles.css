@@ -9,6 +9,7 @@
     text-align: center;
 }
 .services{
+    background-size: cover;
     text-align:center;
     background-image: url("../assets/backgrounds/s_image.jpg");
     color: white;
@@ -20,7 +21,14 @@
 }
 
 .portfolio{
-    display: block;
+    text-align: center;
+    
+}
+.portfolio img{
+    padding: 10px;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
 }
 
 .contact{
@@ -32,3 +40,7 @@
 .social{
     text-align: center;
 }
+.form-control{
+    width: 500px;
+}
+
