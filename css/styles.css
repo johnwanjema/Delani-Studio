@@ -29,9 +29,7 @@
 
 .portfolio img {
     padding: 10px;
-   
-    
-    padding-left: 100px;
+    padding-left: 50px;
     
 }
 
@@ -40,17 +38,12 @@
     height: 500px;
     background-size: cover;
     color: white;
+    text-align:center;
 }
 
 .social {
     text-align: center;
     padding-top: 20px;
-}
-
-.form-control {
-    width: 500px;
-    background-color: transparent;
-    color: white;
 }
 
 .development {
@@ -65,3 +58,27 @@
     display: none;
 }
 
+
+.form{
+    padding-top: 2%;
+    padding-bottom: 4%;
+  }
+  .form input{
+    background: transparent;
+    color: white;
+    padding-right: 5000px;
+  }
+
+  .name, .email{
+    background: transparent;
+  }
+  .message{
+    width: 750px;
+    height: 30vh;
+    margin-top: 2%;
+    background: transparent;
+    color: white;
+  }
+  ::placeholder{
+    color:white;
+  }
