@@ -1,16 +1,31 @@
 $(document).ready(function () {
     $(".img1").click(function () {
-        $(".d").toggle();
+        $(".img1").hide();
         $(".design").toggle();
     });
+    $(".design").click(function () {
+        $(".img1").toggle();
+        $(".design").hide();
+    });
+
+
+
     $(".img2").click(function () {
-        $(".d1").toggle();
+        $(".img2").hide();
         $(".development").toggle();
     });
+    $(".development").click(function () {
+        $(".img2").toggle();
+        $(".development").hide();
+    });
     $(".img3").click(function () {
-        $(".d2").toggle();
+        $(".img3").hide();
         $(".product").toggle();
-    });    
+    });   
+    $(".product").click(function () {
+        $(".img3").toggle();
+        $(".product").hide();
+    }); 
 });
 
 
