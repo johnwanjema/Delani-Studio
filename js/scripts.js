@@ -23,6 +23,7 @@ $(document).ready(function () {
         $(".img3").toggle();
         $(".product").hide();
     });
+    
     $("#submit1").click(function () {
         alert("your message has been received")
        
