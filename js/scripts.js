@@ -26,7 +26,7 @@ $(document).ready(function () {
     $("#submit1").click(function () {
         alert("your message has been received")
        
-    });
+    }); 
 });
 
 $(document).ready(function () {
