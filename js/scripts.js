@@ -16,7 +16,7 @@ $(document).ready(function () {
         $(".development").hide();
     });
     $(".img3").click(function () {
-        $(".img3").hide();
+        $(".img3").hide(); 
         $(".product").toggle();
     });
     $(".product").click(function () {
